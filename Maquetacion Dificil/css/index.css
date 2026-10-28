@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    /* colores*/
+    --color-grey: #606060;
+    --color-light-grey: #f0f0f0;
+    --color-bg:#f0f0f0;
+
+    /* space*/
+    --space-xxs: 8px;
+    --space-xs: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 42px;
+    --space-xxl: 64px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* components */
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.big {
+    font-size: 18px;
+    color: #606060;
+}
+
+.eyebrow {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #606060;
+    text-transform: uppercase;
+}
+
+.small {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #606060;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 73px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+
+    display: inline-block;
+}
+
+.menu-link {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.link {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+    display: inline-flex;
+    gap: var(--space-xxs);
+    align-items: center;
+}
+
+/* header */
+
+.header {
+    padding: var(--space-md);
+    background-color: var(--color-light-grey);
+}
+
+.header__block {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    max-width: 75px;
+}
+
+.header__nav {
+
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    gap: var(--space-lg);
+    align-items: center;
+}
