@@ -161,7 +161,7 @@ p {
 .hero__content {
     display: flex;
     flex-direction: column;
-    gap: var(--space-md) 0 0 0 ;
+    gap: var(--space-md) 0 0 0;
 
     flex: 1 1 300px;
 }
@@ -186,48 +186,99 @@ p {
 /* section 1  */
 
 
-.section__1{
+.section__1 {
     background-color: var(--color-bg);
     padding: var(--space-xl) var(--space-md) var(--space-xl) var(--space-md);
 
 
 }
-.section1__block{
+
+.section1__block {
     display: flex;
     flex-direction: column;
     gap: var(--space-lg);
-    flex-wrap: wrap;
 }
 
-.nav__section1{
+.nav__section1 {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.card{
+.card {
     padding: var(--space-lg);
     display: flex;
     flex-direction: column;
     gap: var(--space-md);
     background-color: var(--color-light-grey);
-}
-
-.card__in{
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-xs);
-
-}
-.main__section1{
-    display: flex;
-    gap: var(--space-xs);
-    align-items: center;
 
     flex: 1 1 300px;
 }
-.footer__section1{
+
+.card__in {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+
+}
+
+.main__section1 {
+    display: flex;
+    gap: var(--space-xs);
+}
+
+.footer__section1 {
     display: flex;
     flex-direction: column;
 
+}
+
+/* section 2  */
+
+
+.section__2 {
+    padding: var(--space-xl) var(--space-md) var(--space-xl) var(--space-md);
+    background-color: var(--color-bg);
+
+}
+
+.section2__block {
+    display: flex;
+    flex-direction: column;
+    gap: (var(--space-lg));
+}
+
+.nav__2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    margin-bottom: 30px;
+}
+
+.main__2 {
+    display: flex;
+    gap: var(--space-lg);
+
+}
+
+.card__2 {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+
+    flex: 1 1 300px;
+    min-width: 0;
+}
+
+.card__2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.titlecards {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-xxs);
 }
