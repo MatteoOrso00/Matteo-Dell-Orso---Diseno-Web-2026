@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+b.{
+    padding: 48px 0;
+}
+
+.b__block{
+    display: flex;
+    gap: 16px;
+    padding: 16ppx;
+    max-width: 920px;
+}
+
+
+
+.b__card{
+
+}
