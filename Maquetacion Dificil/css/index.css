@@ -271,7 +271,7 @@ p {
     min-width: 0;
 }
 
-.card__2 img{
+.card__2 img {
     display: block;
     width: 100%;
     height: auto;
@@ -281,4 +281,126 @@ p {
     display: flex;
     justify-content: space-between;
     gap: var(--space-xxs);
+}
+
+
+
+
+
+.work {
+    background-color: var(--color-bg);
+    padding: var(--space-xxl) var(--space-md);
+}
+
+.work_block {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+}
+
+.work__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards_work {
+    display: flex;
+    gap: var(--space-xs);
+}
+
+.card-left_work {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+
+}
+
+.cards_right-work {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.card-right_work {
+    padding: var(--space-lg);
+    display: flex;
+    gap: var(--space-md);
+    background-color: var(--color-light-grey);
+}
+
+.card-right_work_content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.footer{
+    padding: var(--space-md);
+    background-color: var(--color-bg);
+
+}
+
+.first__footer-block{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-xl);
+    gap: var(--space-xl);
+    background-color: var(--color-light-grey);
+    align-items: center;
+
+
+}
+.first__footer-title{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+   
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    align-items: center;
+}
+
+
+.second__footer-block{
+        padding: var(--space-xxl) var(--space-lg);
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-lg);
+
+}
+
+.content-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logotitle{
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xxs);
+}
+
+.social{
+    display: flex;
+    gap: var(--space-lg);
+
+}
+
+.info-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: var(--space-md);
+    border-top: 1px solid var(--color-light-grey);
+    
+}
+
+.infolink{
+    display: flex;
+    gap: var(--space-lg);
+    color: #606060;
+
 }
