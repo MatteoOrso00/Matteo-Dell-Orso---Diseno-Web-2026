@@ -375,6 +375,8 @@ ul {
     background-color: var(--color-light-grey);
     display: flex;
     gap: var(--space-xl);
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -382,6 +384,7 @@ ul {
     display: flex;
     flex-direction: column;
     gap: var(--space-xs);
+    
 
 }
 
