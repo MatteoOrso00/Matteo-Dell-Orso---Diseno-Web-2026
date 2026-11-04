@@ -64,6 +64,10 @@ p {
     font-weight: 400;
 }
 
+ul {
+    list-style: none;
+}
+
 .big {
     font-size: 18px;
     color: #606060;
@@ -356,79 +360,85 @@ p {
 }
 
 .footer {
-    padding: var(--space-md);
-    background-color: var(--color-bg);
+    padding: 0 var(--space-md);
 
 }
 
-.first__footer-block {
+.first__footer__block {
     display: flex;
-    justify-content: space-between;
-    padding: var(--space-xl);
-    gap: var(--space-xl);
-    background-color: var(--color-light-grey);
-    align-items: center;
-
+    flex-direction: column;
 
 }
 
-.first__footer-title {
+.footer__contact {
+    padding: var(--space-xl);
+    background-color: var(--color-light-grey);
+    display: flex;
+    gap: var(--space-xl);
+
+}
+
+.footer__contact-content {
     display: flex;
     flex-direction: column;
     gap: var(--space-xs);
+
 }
 
-.links {
+.footer__contact-buttons {
     display: flex;
     flex-direction: column;
-    gap: var(--space-md);
     align-items: center;
+    gap: var(--space-md);
 }
 
-
-.second__footer-block {
-    padding: var(--space-xxl) var(--space-lg);
+.footer__foot {
+    padding: var(--space-xl) 0 var(--space-lg) 0;
     display: flex;
     flex-direction: column;
     gap: var(--space-lg);
 
 }
 
-.content-footer {
+.footer__foot-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logotitle {
+.footer__foot-top img {
+    max-width: 75px;
+
+}
+
+.footer__foot-brand {
     display: flex;
     flex-direction: column;
     gap: var(--space-xxs);
+
 }
 
-.social {
+.footer__foot-nav {
     display: flex;
     gap: var(--space-lg);
-
 }
 
-.info-footer {
+.footer__foot-legal {
     display: flex;
     justify-content: space-between;
     padding-top: var(--space-md);
-    border-top: 1px solid var(--color-light-grey);
+    border-top: 1px solid var(--color-border);
 
 }
 
-.infolink {
+.footer-foot-legal-links {
     display: flex;
-    gap: var(--space-lg);
-    color: #606060;
+    gap: var(--space-md);
 
 }
-
 
 /* trabajos */
+
 
 .trabajos {
     background-color: var(--color-bg);
@@ -450,10 +460,10 @@ p {
 }
 
 .trabajos__card {
-     background-color: var(--color-light-grey);
-     padding: var(--space-md);
-     display: flex;
-     gap: var(--space-md);
+    background-color: var(--color-light-grey);
+    padding: var(--space-md);
+    display: flex;
+    gap: var(--space-md);
 
 }
 
@@ -469,7 +479,7 @@ p {
     flex-direction: column;
     gap: var(--space-xs);
 
-    
+
 }
 
 .trabajos__card.feature .trabajos__card-content {
