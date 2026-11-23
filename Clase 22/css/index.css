@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: aliceblue;
+    min-height: 500vh;
+
+}
+
+
+section{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+
+    background-color: white;
+    margin: 7rem auto;
+    width: fit-content;
+}
+
+div {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.jaimito {
+    background-color: darkgray;
+
+}
+
+
+.section-relative{
+    position: relative;
+
+
+}
+
+.absolute{
+    position: absolute;
+}
+
+
+.fixed{
+position: fixed;
+top: 1rem;
+right: 1 rem;
+
+}
+.sticky{
+    position: sticky;
+    top: 1rem;
+
+
+}
